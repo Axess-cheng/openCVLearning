@@ -1,8 +1,10 @@
 # -*- coding: utf-8 -*-
 """
-Spyder Editor
+used Spyder Editor
 
-This is a temporary script file.
+now is in vscode and can been seen on git
+https://github.com/Axess-cheng/openCVLearning.git
+
 """
 
 import cv2 as cv
@@ -45,7 +47,7 @@ def extrace_object_demo():
     while(True):
         ret, frame = capture.read()
         if ret == False:
-            break;
+            break
         hsv = cv.cvtColor(frame, cv.COLOR_BGR2HSV)
         lower_hsv = np.array([37,43,46])
         upper_hsv = np.array([77, 255, 255])
@@ -72,5 +74,3 @@ cv.imshow("blue channel", b)
 src1 = cv.merge([b,g,r])
 cv.waitKey(8000)
 cv.destroyAllWindows()
-
-# test again and again
