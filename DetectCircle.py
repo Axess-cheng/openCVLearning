@@ -27,7 +27,7 @@ gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
 # cv2.cv.CV_HOUGH_GRADIENT -> cv2.HOUGH_GRADIENT
 # the CV_ prefix has been removed with opencv3, and all constants are in the cv2 submodule now
 # https://answers.opencv.org/question/177506/cv2-has-no-attribute-cv_hough_gradient/
-circles = cv2.HoughCircles(gray, cv2.HOUGH_GRADIENT, 1.2, 100)
+circles = cv2.HoughCircles(gray, cv2.HOUGH_GRADIENT, 1.2, 40)
 if circles is not None:
     circles = np.round(circles[0, :]).astype("int")
 
