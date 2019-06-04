@@ -7,4 +7,4 @@ https://docs.opencv.org/3.0-beta/doc/py_tutorials/py_tutorials.html
 
 another Chinese tutorial
 
-https://www.kancloud.cn/aollo/aolloopencv/259610 
+https://www.kancloud.cn/aollo/aolloopencv/259610
